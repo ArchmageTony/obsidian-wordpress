@@ -234,7 +234,9 @@ export abstract class AbstractWordPressClient implements WordPressClient {
         }
       }
       if (this.plugin.settings.replaceMediaLinks) {
-        activeEditor.editor.setValue(postParams.content);
+        // activeEditor.editor.setValue(postParams.content);
+        this.plugin.app.vault.process(activeFile, (data) => {
+          return postParams.content;})
       }
     }
   }

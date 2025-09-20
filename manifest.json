@@ -1,6 +1,6 @@
 {
-	"id": "obsidian-wordpress",
-	"name": "WordPress",
+	"id": "obsidian-wordpress-at",
+	"name": "WordPress-AT",
 	"version": "0.18.0",
 	"minAppVersion": "1.1.1",
 	"description": "A plugin for publishing Obsidian documents to WordPress.",
